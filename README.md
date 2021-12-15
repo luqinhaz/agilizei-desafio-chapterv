@@ -1,8 +1,5 @@
 # Desafio Bootcamp Agilizei - Chapter V
 
-## Execução
-
-
 ## Relatórios
 ![image](https://user-images.githubusercontent.com/22923012/146273649-628021b1-e3f1-4a87-8ea9-62def177769b.png)
 https://luqinhaz.github.io/agilizei-desafio-chapterv/
