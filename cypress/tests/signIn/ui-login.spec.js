@@ -21,6 +21,6 @@ describe('Realizar login UI', () => {
 
     signIn.preencherLoginIncorreto()
     signIn.realizarLogin()
-    signIn.verificarSeOUsuarioNaoExiste()
+    signIn.verificarSeOLoginFoiRealizado()
   })
 })

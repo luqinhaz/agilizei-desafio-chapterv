@@ -26,7 +26,7 @@ class SignIn {
     cy.contains('No articles are here... yet.').should('be.visible')
   }
 
-  verificarSeOUsuarioNaoExiste () {
+  verificarSeOLoginFalhou () {
     cy.contains('email or password is invalid').should('be.visible')
   }
 
