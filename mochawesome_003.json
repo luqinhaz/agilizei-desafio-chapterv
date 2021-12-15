@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-15T22:19:30.405Z",
-    "end": "2021-12-15T22:19:35.639Z",
-    "duration": 5234,
+    "start": "2021-12-15T22:21:12.534Z",
+    "end": "2021-12-15T22:21:18.158Z",
+    "duration": 5624,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "aa3816c2-a170-47df-9ccf-28da77d8c274",
+      "uuid": "d75d3abe-4122-4380-9749-4d7ca2b145c0",
       "title": "",
       "fullFile": "cypress/tests/signUp/ui-cadastro.spec.js",
       "file": "cypress/tests/signUp/ui-cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bb4900c9-537c-445a-99af-264742233c25",
+          "uuid": "7fdb1611-7a53-4e81-a1cd-314e3a0eea90",
           "title": "Cadastro de UI",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastro com sucesso",
               "fullTitle": "Cadastro de UI Cadastro com sucesso",
               "timedOut": null,
-              "duration": 2489,
+              "duration": 2788,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_signUp.default.cadastroNovoUsuarioAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarNovoUsuario();\n_signUp.default.realizarCadastro();\ncy.contains('No articles are here... yet.').should('be.visible');",
               "err": {},
-              "uuid": "79d22230-4392-4000-bbe7-65985e202757",
-              "parentUUID": "bb4900c9-537c-445a-99af-264742233c25",
+              "uuid": "f3472e26-9009-489b-aff8-e2b07323d9d1",
+              "parentUUID": "7fdb1611-7a53-4e81-a1cd-314e3a0eea90",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Cadastro com usuário já existente",
               "fullTitle": "Cadastro de UI Cadastro com usuário já existente",
               "timedOut": null,
-              "duration": 1277,
+              "duration": 1288,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "_signUp.default.cadastrUsuarioExistenteAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarUsuarioExistente(); // Click no botão de Submit\n\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOUsuarioJaExiste();",
               "err": {},
-              "uuid": "a8f282d7-66b5-4910-9925-0a6b080ec425",
-              "parentUUID": "bb4900c9-537c-445a-99af-264742233c25",
+              "uuid": "bf24a6d2-ebec-4a50-b550-d2ee99011f90",
+              "parentUUID": "7fdb1611-7a53-4e81-a1cd-314e3a0eea90",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Cadastro com e-mail já existente",
               "fullTitle": "Cadastro de UI Cadastro com e-mail já existente",
               "timedOut": null,
-              "duration": 1420,
+              "duration": 1465,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "_signUp.default.cadastrarEmailExistenteAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarEmailExistente(); // Click no botão de Submit\n\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOEmailJaExiste();",
               "err": {},
-              "uuid": "e4d2c93c-b9ef-42ff-9124-799c7bd6d4b9",
-              "parentUUID": "bb4900c9-537c-445a-99af-264742233c25",
+              "uuid": "731a35bc-70dd-457b-a225-45142898c8bc",
+              "parentUUID": "7fdb1611-7a53-4e81-a1cd-314e3a0eea90",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "79d22230-4392-4000-bbe7-65985e202757",
-            "a8f282d7-66b5-4910-9925-0a6b080ec425",
-            "e4d2c93c-b9ef-42ff-9124-799c7bd6d4b9"
+            "f3472e26-9009-489b-aff8-e2b07323d9d1",
+            "bf24a6d2-ebec-4a50-b550-d2ee99011f90",
+            "731a35bc-70dd-457b-a225-45142898c8bc"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5186,
+          "duration": 5541,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

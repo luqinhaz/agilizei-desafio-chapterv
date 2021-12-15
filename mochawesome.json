@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-15T22:19:03.996Z",
-    "end": "2021-12-15T22:19:08.634Z",
-    "duration": 4638,
+    "start": "2021-12-15T22:20:45.425Z",
+    "end": "2021-12-15T22:20:50.149Z",
+    "duration": 4724,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f4773a16-eaea-4b85-bb38-d89c710c38f8",
+      "uuid": "144ae0c6-f562-48f7-a55d-4e1325f84dd1",
       "title": "",
       "fullFile": "cypress/tests/signIn/e2e-login.spec.js",
       "file": "cypress/tests/signIn/e2e-login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "14ee1c3a-4774-40a5-a802-aecb12060fec",
+          "uuid": "c243e84c-46b8-457d-a237-8fecefe0d519",
           "title": "Realizar login E2E",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu digito login e senha corretos, devo ser logado no sistema",
               "fullTitle": "Realizar login E2E Quando eu digito login e senha corretos, devo ser logado no sistema",
               "timedOut": null,
-              "duration": 3056,
+              "duration": 3106,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_signIn.default.preencherLoginCorreto();\n_signIn.default.realizarLogin();\n_signIn.default.verificarSeOLoginFoiRealizado();",
               "err": {},
-              "uuid": "06759f59-efe2-4292-984e-71f00e58fa44",
-              "parentUUID": "14ee1c3a-4774-40a5-a802-aecb12060fec",
+              "uuid": "e4842f83-dbf9-4d8a-a9da-ca35ce2544ce",
+              "parentUUID": "c243e84c-46b8-457d-a237-8fecefe0d519",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Quando eu digito login e senha incorretos, devo ser logado no sistema",
               "fullTitle": "Realizar login E2E Quando eu digito login e senha incorretos, devo ser logado no sistema",
               "timedOut": null,
-              "duration": 1485,
+              "duration": 1553,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "_signIn.default.preencherLoginIncorreto();\n_signIn.default.realizarLogin();\n_signIn.default.verificarSeOLoginFalhou();",
               "err": {},
-              "uuid": "36696116-fe19-4ef7-a281-6e1c29847380",
-              "parentUUID": "14ee1c3a-4774-40a5-a802-aecb12060fec",
+              "uuid": "d5b5f3c3-6d95-4dc1-981d-9b7b0fb436ee",
+              "parentUUID": "c243e84c-46b8-457d-a237-8fecefe0d519",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "06759f59-efe2-4292-984e-71f00e58fa44",
-            "36696116-fe19-4ef7-a281-6e1c29847380"
+            "e4842f83-dbf9-4d8a-a9da-ca35ce2544ce",
+            "d5b5f3c3-6d95-4dc1-981d-9b7b0fb436ee"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4541,
+          "duration": 4659,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
