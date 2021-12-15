@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-15T22:12:35.959Z",
-    "end": "2021-12-15T22:12:39.556Z",
-    "duration": 3597,
+    "start": "2021-12-15T22:16:42.240Z",
+    "end": "2021-12-15T22:16:45.582Z",
+    "duration": 3342,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "456574b4-4371-4384-a90c-7a812ed912af",
+      "uuid": "b081d99f-7f1c-43ae-a1b8-caccf2056923",
       "title": "",
       "fullFile": "cypress/tests/signIn/ui-login.spec.js",
       "file": "cypress/tests/signIn/ui-login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e370a1e3-0bb4-4f3b-bb37-0fd365aa47ab",
+          "uuid": "22341e6d-e28b-4f4d-9de0-2c236306ed98",
           "title": "Realizar login UI",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Realizar login corretamente",
               "fullTitle": "Realizar login UI Realizar login corretamente",
               "timedOut": null,
-              "duration": 2066,
+              "duration": 1849,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_signIn.default.realizarLoginAPI();\n_signIn.default.preencherLoginCorreto();\n_signIn.default.realizarLogin();\n_signIn.default.verificarSeOLoginFoiRealizado();",
               "err": {},
-              "uuid": "0b9e1c35-c0b5-498b-83eb-48c382469d47",
-              "parentUUID": "e370a1e3-0bb4-4f3b-bb37-0fd365aa47ab",
+              "uuid": "a3333629-11ad-4b91-83a5-1d5e19ac39fd",
+              "parentUUID": "22341e6d-e28b-4f4d-9de0-2c236306ed98",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Realizar login inválido",
               "fullTitle": "Realizar login UI Realizar login inválido",
               "timedOut": null,
-              "duration": 1422,
+              "duration": 1439,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "_signIn.default.loginInvalidoAPI();\n_signIn.default.preencherLoginIncorreto();\n_signIn.default.realizarLogin();\n_signIn.default.verificarSeOLoginFalhou();",
               "err": {},
-              "uuid": "0cf15105-e346-475f-ac7a-2afce2cbe095",
-              "parentUUID": "e370a1e3-0bb4-4f3b-bb37-0fd365aa47ab",
+              "uuid": "61997cf1-99a8-4c1d-864a-061a9bc7c862",
+              "parentUUID": "22341e6d-e28b-4f4d-9de0-2c236306ed98",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0b9e1c35-c0b5-498b-83eb-48c382469d47",
-            "0cf15105-e346-475f-ac7a-2afce2cbe095"
+            "a3333629-11ad-4b91-83a5-1d5e19ac39fd",
+            "61997cf1-99a8-4c1d-864a-061a9bc7c862"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3488,
+          "duration": 3288,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

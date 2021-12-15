@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-15T22:12:43.826Z",
-    "end": "2021-12-15T22:12:49.762Z",
-    "duration": 5936,
+    "start": "2021-12-15T22:16:49.520Z",
+    "end": "2021-12-15T22:16:55.453Z",
+    "duration": 5933,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7f41c28c-2c07-48fa-b66c-8956a89e1fd3",
+      "uuid": "27a02123-0d1d-41c4-a64a-3faf449f17f4",
       "title": "",
       "fullFile": "cypress/tests/signUp/e2e-cadastro.spec.js",
       "file": "cypress/tests/signUp/e2e-cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c99bc804-0677-46fc-a50f-39ea7cfb5dbd",
+          "uuid": "d8ed719c-7487-4c5b-adc6-c86ee74485da",
           "title": "Cadastro completo de um usuário por tela.",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastrar novo usuário no sistema.",
               "fullTitle": "Cadastro completo de um usuário por tela. Cadastrar novo usuário no sistema.",
               "timedOut": null,
-              "duration": 2733,
+              "duration": 2799,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "// Preenchendo os dados necessários\n_signUp.default.cadastrarNovoUsuario(); // Apertar o botão de cadastro.\n\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOCadastroFoiRealizado();",
               "err": {},
-              "uuid": "e7d786cb-6b67-4cdf-b3fe-32605f97638f",
-              "parentUUID": "c99bc804-0677-46fc-a50f-39ea7cfb5dbd",
+              "uuid": "016fbc1e-93bd-4f9b-a0d3-09d8b79f7768",
+              "parentUUID": "d8ed719c-7487-4c5b-adc6-c86ee74485da",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Cadastrar um usuário já existente no sistema.",
               "fullTitle": "Cadastro completo de um usuário por tela. Cadastrar um usuário já existente no sistema.",
               "timedOut": null,
-              "duration": 1472,
+              "duration": 1500,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "_signUp.default.cadastrarUsuarioExistente();\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOUsuarioJaExiste();",
               "err": {},
-              "uuid": "d8bb5fc4-3d37-4925-bef6-06e17e1f071b",
-              "parentUUID": "c99bc804-0677-46fc-a50f-39ea7cfb5dbd",
+              "uuid": "d0917c2d-b426-4854-b9e0-c3ee4ba33b4c",
+              "parentUUID": "d8ed719c-7487-4c5b-adc6-c86ee74485da",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Cadastrar um e-mail já existente no sistema.",
               "fullTitle": "Cadastro completo de um usuário por tela. Cadastrar um e-mail já existente no sistema.",
               "timedOut": null,
-              "duration": 1629,
+              "duration": 1544,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "_signUp.default.cadastrarEmailExistente();\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOEmailJaExiste();",
               "err": {},
-              "uuid": "03c1f3b6-aa68-4211-ab70-072df5d1fc3f",
-              "parentUUID": "c99bc804-0677-46fc-a50f-39ea7cfb5dbd",
+              "uuid": "eed2ae2d-6a4b-4617-839a-9724591548bf",
+              "parentUUID": "d8ed719c-7487-4c5b-adc6-c86ee74485da",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e7d786cb-6b67-4cdf-b3fe-32605f97638f",
-            "d8bb5fc4-3d37-4925-bef6-06e17e1f071b",
-            "03c1f3b6-aa68-4211-ab70-072df5d1fc3f"
+            "016fbc1e-93bd-4f9b-a0d3-09d8b79f7768",
+            "d0917c2d-b426-4854-b9e0-c3ee4ba33b4c",
+            "eed2ae2d-6a4b-4617-839a-9724591548bf"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5834,
+          "duration": 5843,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
