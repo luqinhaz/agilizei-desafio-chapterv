@@ -9,7 +9,7 @@ class SignIn {
   }
 
   preencherLoginCorreto () {
-    cy.get(el.inputEmail).type('lqztest@mail.com')
+    cy.get(el.inputEmail).type('lqztestes@mail.com.br')
     cy.get(el.inputPassword).type('Teste@123')
   }
 
@@ -23,7 +23,7 @@ class SignIn {
   }
 
   verificarSeOLoginFoiRealizado () {
-    cy.contains('No articles are here... yet.').should('be.visible')
+    cy.contains('Popular Tags').should('be.visible')
   }
 
   verificarSeOLoginFalhou () {

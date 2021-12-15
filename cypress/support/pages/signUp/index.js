@@ -25,7 +25,7 @@ class SignUp {
 
   cadastrarEmailExistente () {
     cy.get(el.inputUsername).type(chance.name())
-    cy.get(el.inputEmail).type('lqztest@mail.com')
+    cy.get(el.inputEmail).type('lqztestes@mail.com.br')
     cy.get(el.inputPassword).type('Teste@123')
   }
 

@@ -20,7 +20,7 @@ describe('Cadastro completo de um usuário por tela.', () => {
   it('Cadastrar um usuário já existente no sistema.', () => {
     signUp.cadastrarUsuarioExistente()
     signUp.realizarCadastro()
-    signUp.verificarSeOUsuarioNaoExiste()
+    signUp.verificarSeOUsuarioJaExiste()
   })
 
   it('Cadastrar um e-mail já existente no sistema.', () => {
