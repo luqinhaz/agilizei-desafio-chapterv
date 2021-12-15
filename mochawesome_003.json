@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-15T22:12:54.541Z",
+    "end": "2021-12-15T22:13:00.311Z",
+    "duration": 5770,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3e6ebee9-a726-454a-bc9a-04d6725acda4",
+      "title": "",
+      "fullFile": "cypress/tests/signUp/ui-cadastro.spec.js",
+      "file": "cypress/tests/signUp/ui-cadastro.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a22c4014-fa5e-483c-9a21-f4d4612c9e4e",
+          "title": "Cadastro de UI",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Cadastro com sucesso",
+              "fullTitle": "Cadastro de UI Cadastro com sucesso",
+              "timedOut": null,
+              "duration": 2841,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_signUp.default.cadastroNovoUsuarioAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarNovoUsuario();\n_signUp.default.realizarCadastro();\ncy.contains('No articles are here... yet.').should('be.visible');",
+              "err": {},
+              "uuid": "3b4cbfc2-1d90-4f30-a7d2-dbe2d75aadce",
+              "parentUUID": "a22c4014-fa5e-483c-9a21-f4d4612c9e4e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Cadastro com usuário já existente",
+              "fullTitle": "Cadastro de UI Cadastro com usuário já existente",
+              "timedOut": null,
+              "duration": 1429,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_signUp.default.cadastrUsuarioExistenteAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarUsuarioExistente(); // Click no botão de Submit\n\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOUsuarioJaExiste();",
+              "err": {},
+              "uuid": "cc96c310-fcd0-4e75-85cc-3ce39de09e1d",
+              "parentUUID": "a22c4014-fa5e-483c-9a21-f4d4612c9e4e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Cadastro com e-mail já existente",
+              "fullTitle": "Cadastro de UI Cadastro com e-mail já existente",
+              "timedOut": null,
+              "duration": 1443,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_signUp.default.cadastrarEmailExistenteAPI(); // Preenchendo os campos\n\n_signUp.default.cadastrarEmailExistente(); // Click no botão de Submit\n\n_signUp.default.realizarCadastro();\n_signUp.default.verificarSeOEmailJaExiste();",
+              "err": {},
+              "uuid": "2eb0b989-3485-48e1-ac0c-6eb7eca3c654",
+              "parentUUID": "a22c4014-fa5e-483c-9a21-f4d4612c9e4e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3b4cbfc2-1d90-4f30-a7d2-dbe2d75aadce",
+            "cc96c310-fcd0-4e75-85cc-3ce39de09e1d",
+            "2eb0b989-3485-48e1-ac0c-6eb7eca3c654"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5713,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
